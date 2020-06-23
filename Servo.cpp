@@ -17,4 +17,5 @@ void Servo::servoMove(double width)
 void Servo::init()
 {
   servo->period(period);
+  servo->pulsewidth(pulseWidth);
 }
